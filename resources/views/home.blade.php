@@ -5,7 +5,7 @@
 
 @section('content')
 <main>
-    <div class="container">
+    <div class="CardsContainer">
         <span class="currentNews">Current News</span>
         @foreach($comics as $element)
         <div class="card">

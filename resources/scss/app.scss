@@ -12,7 +12,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     padding: 15px 10px;
     nav {
         width: 80%;
@@ -60,7 +59,7 @@ main {
     padding-bottom: 30px;
 }
 
-.container {
+.CardsContainer {
     padding-top: 60px;
     width: 70%;
     margin: 0 auto;
@@ -150,5 +149,95 @@ main {
             font-size: 0.9rem;
         }
     }
+}
+footer{
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.footerContainer{
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+        h3{
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        ul{
+            list-style: none;
+        }
+        .footerLogo{
+            position: absolute;
+            right: 15%;
+            bottom: -20px;
+            img{
+                height: 600px;
+            }
+        }
+}
+.listContainer{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    flex-basis: 55%;
+    li{
+        list-style: none;
+        color: lightgrey;
+        font-weight: 100;
+        text-transform: capitalize;
+        margin-block : 5px
+    }
+}
 
+.copy{
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    color: lightgray;
+    a{
+        text-decoration: none;
+        color: #0282f9
+    };
+}
+
+.subFooter{
+    background-color: #303030;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        span{
+            color:#0282f9;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+.footerBtn{
+    border: 2px solid #0282f9;
+    background-color: #303030;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+div.container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
 }
